@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS HT11: MainPage
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./js/HT11.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="m-3 main_page">
+        <h3 class="text-center p-3">JavaScript, homework 11</h3>
+        <div class="d-block ms-3 me-3">
+            <a href="#" class="row fw-bold"><span class="col-2 col-lg-1 pe-0 me-0">Task
+                    1</span><span class="col ps-0">Напишіть функцію, яка рахує кількість букв верхнього регістру в
+                    стрінгу і повертає цю кількість
+                    <ul class="m-0">
+                        <li>
+                            CountLowrercase("abc"); ===> 0
+                        </li>
+                        <li>
+                            CountLowrercase("abcABC123"); ===> 3</li>
+                        <li>
+                            CountLowrercase("abcABC123!@€?#$%^&*()_-+=}{[]|\':;?/>.<,~");===> 3
+                        </li>
+                    </ul>
+                </span></a>
+            <hr class="p-0 m-0">
+            <a href="#" class="row fw-bold"><span class="col-2 col-lg-1 pe-0 me-0">Task
+                    2</span><span class="col ps-0">Написати функцію яка видаляє всі текстові символи з стрінга, а
+                    отриманні цифрові значення переводить в тип намбер та повертає його
+                    <ul class="m-0">
+                        <li>fclearString("hell5o wor6ld") ======> 56</li>
+                    </ul>
+                </span></a>
+            <hr class="p-0 m-0">
+            <a href="#" class="row fw-bold"><span class="col-2 col-lg-1 pe-0 me-0">Task
+                    3</span><span class="col ps-0">Створити інпут який отримує пін код ( це 4 цифрових значення). За
+                    допомогою регулярки перевітити чи валідний пін код ввів користувач
+                    <ul class="m-0">
+                        <li>"1234" --> true
+                        </li>
+                        <li>"12345" --> false
+                        </li>
+                        <li> "a234" --> false</li>
+                    </ul>
+                </span>
+            </a>
+            <hr class="p-0 m-0">
+            <a href="#" class="row fw-bold"><span class="col-2 col-lg-1 pe-0 me-0">Task
+                    4</span><span class="col ps-0">Створити регулярку яка отримує адресс сторінки і повертає тільки
+                    адресс
+                    <ul class="m-0">
+                        <li>
+                            "https://prog.academy/?page=1" -->"https://prog.academy/"
+                        </li>
+                    </ul>
+                </span>
+            </a>
+            <hr class="p-0 m-0">
+            <a href="#" class="row fw-bold"><span class="col-2 col-lg-1 pe-0 me-0">Task
+                    5</span><span class="col ps-0">Створити функцію валідації юзернейма, імя може включати літери цифри,
+                    тире і нижьнє тире, довжина імя повина бути від 4 до 10 символів. Приклад:
+                    <ul class="m-0">
+                        <li>validateUsr('a') => false</li>
+                        <li> validateUsr('p1pp1') => true</li>
+                        <li>validateUsr('asd43_34') => true</li>
+                    </ul>
+                </span>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
